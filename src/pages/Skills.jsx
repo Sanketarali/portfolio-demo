@@ -14,18 +14,18 @@ export default function Skills() {
               <p className="rounded-md text-[14px] bg-blue-500 px-2 py-1.5">
                 Azure Storage account
               </p>
-              <p className="rounded-md text-[14px] bg-neutral-950 px-2 py-1.5">
-                Azure Cosmos DB
+              <p className="rounded-md text-[14px]  bg-orange-500  px-2 py-1.5">
+                Azure SQL
               </p>
               <p className="rounded-md text-[14px] bg-red-500 px-2 py-1.5">
                 Azure Data Lake
               </p>
-              <p className="rounded-md text-[14px]  bg-orange-500  px-2 py-1.5">
-                Azure SQL
+              <p className="rounded-md text-[14px] bg-neutral-950 px-2 py-1.5">
+                Azure Cosmos DB
               </p>
-              <p className="rounded-md text-[14px]  bg-green-500  px-2 py-1.5">
-                Azure Synapse Analytics
-              </p>
+              
+             
+              
               
               
             </div>
@@ -43,6 +43,9 @@ export default function Skills() {
               </p>
               <p className="rounded-md text-[14px]  bg-neutral-950  px-2 py-1.5">
                 Azure Stream Analytics
+              </p>
+              <p className="rounded-md text-[14px]  bg-green-500  px-2 py-1.5">
+                Azure Synapse Analytics
               </p>
               <p className="rounded-md text-[14px]  bg-red-500  px-2 py-1.5">
                 Azure HD Insight
