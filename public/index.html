@@ -19,21 +19,22 @@
       display: flex;
       justify-content: center; /* Center horizontally */
       align-items: center; /* Center vertically */
-      transform: scale(1.1); /* Zoom in the content */
+      transform: scale(1.05); /* Zoom in the content */
       overflow-x: hidden; /* Hide horizontal overflow */
     }
 
     .main-content {
       z-index: 1; /* Ensure main content is above the button */
-      background-color:blacks;
+      background-color: blacks;
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     }
 
     .resume-button {
+      display: none; /* Hide the button by default */
       position: absolute;
-      bottom: 400px; /* Adjust as needed */
+      bottom: 390px; /* Adjust as needed */
       background-color: #000000; /* Background color */
       color: #ffffff; /* Text color */
       padding: 8px 16px;
@@ -46,6 +47,13 @@
 
     .resume-button:hover {
       background-color: #333333; /* Darker background color on hover */
+    }
+
+    @media screen and (max-width: 768px) {
+      /* Show the button for responsive devices */
+      .resume-button {
+        display: block;
+      }
     }
   </style>
 </head>
